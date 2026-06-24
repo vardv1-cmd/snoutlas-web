@@ -27,7 +27,7 @@
   (function () {
     try {
       var k = 'snoutlas-lang', s = localStorage.getItem(k);
-      var l = s || ((navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+      var l = s || 'en';
       document.documentElement.lang = l;
     } catch (e) { document.documentElement.lang = 'en'; }
   })();
@@ -42,8 +42,8 @@
     <span>Snoutlas</span>
   </a>
   <div class="lang" role="group" aria-label="Language / Язык">
-    <button type="button" data-lang-btn="ru" aria-pressed="false">RU</button>
     <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+    <button type="button" data-lang-btn="ru" aria-pressed="false">RU</button>
   </div>
 </header>
 

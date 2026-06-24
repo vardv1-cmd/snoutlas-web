@@ -105,7 +105,7 @@ main { flex: 1 0 auto; }
 .cta .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--rose); box-shadow: 0 0 10px var(--rose); }
 
 /* ---------- steps ---------- */
-.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 50px 0 12px; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 50px auto 12px; }
 .step { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px 22px; text-align: center; }
 .step .k { font-size: 12px; font-weight: 600; letter-spacing: 2px; color: var(--sage-light); text-transform: uppercase; }
 .step h2 { margin: 12px 0 6px; font-size: 19px; font-weight: 600; }
