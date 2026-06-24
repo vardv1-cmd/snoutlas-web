@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Not found · Snoutlas</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#131C17">
+<link rel="icon" href="/assets/img/snoutlas-icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/styles.css">
+<script>
+  (function () {
+    try {
+      var k = 'snoutlas-lang', s = localStorage.getItem(k);
+      var l = s || ((navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+      document.documentElement.lang = l;
+    } catch (e) { document.documentElement.lang = 'en'; }
+  })();
+</script>
+</head>
+<body>
+<header class="site-header wrap">
+  <a class="brand" href="/">
+    <img src="/assets/img/snoutlas-icon.svg" alt="" width="38" height="38">
+    <span>Snoutlas</span>
+  </a>
+  <div class="lang" role="group" aria-label="Language / Язык">
+    <button type="button" data-lang-btn="ru" aria-pressed="false">RU</button>
+    <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+<main id="main" class="hero wrap" style="padding-top:48px;">
+  <img class="app-icon" src="/assets/img/snoutlas-icon.svg" alt="Snoutlas" width="96" height="96">
+  <h1 style="font-size:clamp(30px,7vw,48px);">404</h1>
+  <p class="pitch">
+    <span data-lang="ru">Такой страницы нет.</span>
+    <span data-lang="en">This page doesn't exist.</span>
+  </p>
+  <a class="cta" href="/">
+    <span data-lang="ru">На главную</span>
+    <span data-lang="en">Back to home</span>
+  </a>
+</main>
+<script src="/assets/i18n.js" defer></script>
+</body>
+</html>

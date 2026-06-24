@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="156" viewBox="0 0 156 156" role="img"><title>Snoutlas icon</title><rect x="0" y="0" width="156" height="156" rx="36" fill="#2E4A3A"/>
+<circle cx="78" cy="82" r="42" fill="#5E8C6A"/>
+<polygon points="50,112 106,112 78,144" fill="#5E8C6A"/>
+<ellipse cx="58" cy="110" rx="7" ry="5" fill="#F3EFE4"/>
+<line x1="55" y1="107" x2="55" y2="104" stroke="#3C5C49" stroke-width="1" stroke-linecap="round"/>
+<line x1="60" y1="107" x2="60" y2="104" stroke="#3C5C49" stroke-width="1" stroke-linecap="round"/>
+<ellipse cx="98" cy="110" rx="7" ry="5" fill="#F3EFE4"/>
+<line x1="95" y1="107" x2="95" y2="104" stroke="#3C5C49" stroke-width="1" stroke-linecap="round"/>
+<line x1="100" y1="107" x2="100" y2="104" stroke="#3C5C49" stroke-width="1" stroke-linecap="round"/>
+<path d="M49,44 Q52,18 59,12 Q64,7 69,13 Q75,24 79,39 Z" fill="#F3EFE4"/>
+<path d="M107,44 Q104,18 97,12 Q92,7 87,13 Q81,24 77,39 Z" fill="#F3EFE4"/>
+<path d="M58,36 Q61,20 65,17 Q69,21 71,35 Z" fill="#E0A4A0"/>
+<path d="M98,36 Q95,20 91,17 Q87,21 85,35 Z" fill="#E0A4A0"/>
+<path d="M42,54 Q42,32 64,28 Q78,24 92,28 Q114,32 114,54 Q114,82 96,97 Q87,105 78,107 Q69,105 60,97 Q42,82 42,54 Z" fill="#F3EFE4"/>
+<ellipse cx="64" cy="64" rx="4" ry="5.5" fill="#2E4A3A" transform="rotate(-18 64 64)"/>
+<ellipse cx="92" cy="64" rx="4" ry="5.5" fill="#2E4A3A" transform="rotate(18 92 64)"/>
+<g transform="translate(70,82) scale(0.667)">
+<path d="M12,21 C12,21 1,13 1,6 C1,2.5 4,0 7,0 C9.5,0 11,1.5 12,3 C13,1.5 14.5,0 17,0 C20,0 23,2.5 23,6 C23,13 12,21 12,21 Z" fill="#E0A4A0"/>
+<ellipse cx="9" cy="13.5" rx="1.9" ry="2.7" fill="#2E4A3A" transform="rotate(18 9 13.5)"/>
+<ellipse cx="15" cy="13.5" rx="1.9" ry="2.7" fill="#2E4A3A" transform="rotate(-18 15 13.5)"/>
+</g>
+<line x1="78" y1="96" x2="78" y2="104" stroke="#2E4A3A" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

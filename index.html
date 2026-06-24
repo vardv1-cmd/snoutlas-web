@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snoutlas — spot · snap · collect</title>
+<meta name="description" content="Snoutlas is a wildlife photo-collection game: spot a real animal, snap a photo, and every encounter becomes a collectible card.">
+<meta name="theme-color" content="#131C17">
+<link rel="canonical" href="https://snoutlas.com/">
+<link rel="icon" href="/assets/img/snoutlas-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/snoutlas-appicon-1024.png">
+<!-- Open Graph / social -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snoutlas">
+<meta property="og:title" content="Snoutlas — spot · snap · collect">
+<meta property="og:description" content="A wildlife photo-collection game: spot a real animal, snap a photo, and every encounter becomes a collectible card.">
+<meta property="og:url" content="https://snoutlas.com/">
+<meta property="og:image" content="https://snoutlas.com/assets/img/snoutlas-appicon-1024.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Snoutlas — spot · snap · collect">
+<meta name="twitter:description" content="A wildlife photo-collection game: spot a real animal, snap a photo, and every encounter becomes a collectible card.">
+<meta name="twitter:image" content="https://snoutlas.com/assets/img/snoutlas-appicon-1024.png">
+<link rel="preload" href="/assets/fonts/fredoka-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/styles.css">
+<script>
+  /* set language before paint to avoid a flash of the wrong language */
+  (function () {
+    try {
+      var k = 'snoutlas-lang', s = localStorage.getItem(k);
+      var l = s || ((navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en');
+      document.documentElement.lang = l;
+    } catch (e) { document.documentElement.lang = 'en'; }
+  })();
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main"><span data-lang="ru">К содержимому</span><span data-lang="en">Skip to content</span></a>
+
+<header class="site-header wrap">
+  <a class="brand" href="/">
+    <img src="/assets/img/snoutlas-icon.svg" alt="" width="38" height="38">
+    <span>Snoutlas</span>
+  </a>
+  <div class="lang" role="group" aria-label="Language / Язык">
+    <button type="button" data-lang-btn="ru" aria-pressed="false">RU</button>
+    <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap">
+    <img class="app-icon" src="/assets/img/snoutlas-icon.svg" alt="Snoutlas" width="116" height="116">
+    <h1>Snoutlas</h1>
+    <p class="tagline">spot · snap · collect</p>
+    <p class="pitch">
+      <span data-lang="ru">Игра-коллекционирование диких животных по фото: замечай зверя, снимай — и каждая встреча превращается в коллекционную карточку.</span>
+      <span data-lang="en">A wildlife photo-collection game: spot a real animal, snap a photo, and every encounter becomes a collectible card.</span>
+    </p>
+    <span class="cta">
+      <span class="dot" aria-hidden="true"></span>
+      <span data-lang="ru">Скоро в App Store</span>
+      <span data-lang="en">Coming soon to the App Store</span>
+    </span>
+  </section>
+
+  <section class="steps wrap" aria-label="How it works">
+    <div class="step">
+      <div class="k">spot</div>
+      <h2><span data-lang="ru">Замечай</span><span data-lang="en">Spot</span></h2>
+      <p><span data-lang="ru">Найди дикого зверя вокруг себя.</span><span data-lang="en">Find a wild animal around you.</span></p>
+    </div>
+    <div class="step">
+      <div class="k">snap</div>
+      <h2><span data-lang="ru">Снимай</span><span data-lang="en">Snap</span></h2>
+      <p><span data-lang="ru">Сделай фото — ИИ распознает вид.</span><span data-lang="en">Take a photo — AI identifies the species.</span></p>
+    </div>
+    <div class="step">
+      <div class="k">collect</div>
+      <h2><span data-lang="ru">Собирай</span><span data-lang="en">Collect</span></h2>
+      <p><span data-lang="ru">Получай арт-карточку и пополняй коллекцию.</span><span data-lang="en">Earn an art card and grow your collection.</span></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <nav class="foot-links" aria-label="Footer">
+      <a href="/privacy/"><span data-lang="ru">Конфиденциальность</span><span data-lang="en">Privacy</span></a>
+      <a href="/terms/"><span data-lang="ru">Условия</span><span data-lang="en">Terms</span></a>
+      <a href="mailto:support@snoutlas.com">support@snoutlas.com</a>
+      <a class="ig" href="https://instagram.com/snoutlas" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+        <span>@snoutlas</span>
+      </a>
+    </nav>
+    <div class="copyright">© 2026 Snoutlas</div>
+  </div>
+</footer>
+
+<script src="/assets/i18n.js" defer></script>
+</body>
+</html>

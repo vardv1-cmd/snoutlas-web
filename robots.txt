@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://snoutlas.com/sitemap.xml
